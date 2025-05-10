@@ -1,0 +1,3 @@
+Provider "aws" {
+region = "eu-west-1
+}
