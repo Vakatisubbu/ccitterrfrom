@@ -6,7 +6,6 @@ ami = "ami-04e7764922e1e3a57"
 instance_type= "t2.micro"
 subnet_id     = "subnet-0477e85088645156b"
 }
-
 /*
 resource "aws_s3_bucket" "ccitbucket" {
   bucket = "ccitaprilmay11"
