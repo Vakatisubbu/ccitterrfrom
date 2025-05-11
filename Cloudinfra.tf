@@ -5,6 +5,7 @@ resource "aws_s3_bucket" "ccitbucket" {
   bucket = "ccitaprilMay11"
  tags = {
    Name = "cpbucket"
+   Project ="ccitproject"
        }
 }
 
