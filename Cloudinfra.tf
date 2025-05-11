@@ -10,4 +10,6 @@ resource "aws_s3_bucket" "ccitbucket1" {
   bucket = "ccitaprilmay"
 }
 
-
+resource "aws_s3_bucket" "ccitbucket2" {
+  bucket = "ccitaprilmay123"
+}
