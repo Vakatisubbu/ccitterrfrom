@@ -2,7 +2,7 @@ provider "aws" {
   region = "eu-west-1"
 }
 resource "aws_s3_bucket" "ccitbucket" {
-  bucket = "ccitaprilMay11"
+  bucket = "ccitaprilmay11"
  tags = {
    Name = "cpbucket"
    Project ="ccitproject"
