@@ -3,6 +3,9 @@ provider "aws" {
 }
 resource "aws_s3_bucket" "ccitbucket" {
   bucket = "ccitaprilMay11"
+ tags = {
+   Name = "cpbucket"
+       }
 }
 
 /*resource "aws_instance" "aws_instanceind" {
